@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cv0i25utoqu0x"]
+
+[ext_resource type="Script" uid="uid://esu7iguejr5i" path="res://scripts/float_text.gd" id="1_bkiqr"]
+
+[node name="float" type="Label" unique_id=1674231540]
+offset_left = 83.0
+offset_top = 46.0
+offset_right = 102.0
+offset_bottom = 69.0
+text = "+1"
+script = ExtResource("1_bkiqr")

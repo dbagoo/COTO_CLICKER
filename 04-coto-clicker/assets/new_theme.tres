@@ -1,0 +1,161 @@
+[gd_resource type="Theme" format=3 uid="uid://cw57gemhoeqp"]
+
+[ext_resource type="Texture2D" uid="uid://bd12kgk3ggijw" path="res://assets/Sprite.png" id="1_kxa5r"]
+[ext_resource type="FontFile" uid="uid://5ksdmik1bmbj" path="res://assets/ComicoroRu_0.ttf" id="2_6fscb"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kxa5r"]
+load_path = "res://.godot/imported/Sprite.png-b4fe126ea294504569a6b546731f793b.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uv18l"]
+atlas = SubResource("CompressedTexture2D_kxa5r")
+region = Rect2(107, 153, 26, 28)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mg43y"]
+texture = SubResource("AtlasTexture_uv18l")
+texture_margin_left = 5.0
+texture_margin_top = 7.0
+texture_margin_right = 5.0
+texture_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 26, 28)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yh2ok"]
+load_path = "res://.godot/imported/Sprite.png-b4fe126ea294504569a6b546731f793b.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xdv0r"]
+atlas = SubResource("CompressedTexture2D_yh2ok")
+region = Rect2(11, 107, 26, 28)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x3j2a"]
+texture = SubResource("AtlasTexture_xdv0r")
+texture_margin_left = 5.0
+texture_margin_top = 5.0
+texture_margin_right = 5.0
+texture_margin_bottom = 7.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lkta5"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(10, 107, 27, 28)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kxa5r"]
+texture = SubResource("AtlasTexture_lkta5")
+texture_margin_left = 6.0
+texture_margin_top = 5.0
+texture_margin_right = 5.0
+texture_margin_bottom = 7.0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6rbnw"]
+load_path = "res://.godot/imported/Sprite.png-b4fe126ea294504569a6b546731f793b.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1sugc"]
+atlas = SubResource("CompressedTexture2D_6rbnw")
+region = Rect2(59, 153, 26, 28)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xqp44"]
+texture = SubResource("AtlasTexture_1sugc")
+texture_margin_left = 5.0
+texture_margin_top = 7.0
+texture_margin_right = 5.0
+texture_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 26, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sugp2"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(201, 105, 30, 30)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0wfyh"]
+texture = SubResource("AtlasTexture_sugp2")
+texture_margin_left = 8.0
+texture_margin_top = 8.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
+region_rect = Rect2(0, 0, 30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c71rp"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(107, 59, 26, 26)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nx86t"]
+texture = SubResource("AtlasTexture_c71rp")
+texture_margin_left = 5.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+region_rect = Rect2(0, 0, 26, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdx7d"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(677, 70, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7o3e2"]
+texture = SubResource("AtlasTexture_pdx7d")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvdn7"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(645, 68, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ryv61"]
+texture = SubResource("AtlasTexture_mvdn7")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckgxr"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(677, 70, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4qft3"]
+texture = SubResource("AtlasTexture_ckgxr")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fscb"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(645, 100, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uv18l"]
+texture = SubResource("AtlasTexture_6fscb")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mg43y"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(677, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yh2ok"]
+texture = SubResource("AtlasTexture_mg43y")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxa5r"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(805, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6fscb"]
+texture = SubResource("AtlasTexture_kxa5r")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qft3"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(773, 100, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ckgxr"]
+texture = SubResource("AtlasTexture_4qft3")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7o3e2"]
+atlas = ExtResource("1_kxa5r")
+region = Rect2(805, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pdx7d"]
+texture = SubResource("AtlasTexture_7o3e2")
+
+[resource]
+default_font = ExtResource("2_6fscb")
+Button/styles/disabled = SubResource("StyleBoxTexture_mg43y")
+Button/styles/hover = SubResource("StyleBoxTexture_x3j2a")
+Button/styles/normal = SubResource("StyleBoxTexture_kxa5r")
+Button/styles/pressed = SubResource("StyleBoxTexture_xqp44")
+CatPanel/base_type = &"PanelContainer"
+CatPanel/styles/panel = SubResource("StyleBoxTexture_0wfyh")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_nx86t")
+PauseButton/base_type = &"Button"
+PauseButton/styles/hover = SubResource("StyleBoxTexture_7o3e2")
+PauseButton/styles/normal = SubResource("StyleBoxTexture_ryv61")
+PauseButton/styles/pressed = SubResource("StyleBoxTexture_4qft3")
+PlayButton/base_type = &"Button"
+PlayButton/styles/hover = SubResource("StyleBoxTexture_uv18l")
+PlayButton/styles/normal = SubResource("StyleBoxTexture_uv18l")
+PlayButton/styles/pressed = SubResource("StyleBoxTexture_yh2ok")
+ShopButton/base_type = &"Button"
+ShopButton/styles/hover = SubResource("StyleBoxTexture_6fscb")
+ShopButton/styles/normal = SubResource("StyleBoxTexture_ckgxr")
+ShopButton/styles/pressed = SubResource("StyleBoxTexture_pdx7d")

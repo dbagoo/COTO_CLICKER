@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://co3ymcmrtd20h"]
+
+[ext_resource type="Texture2D" uid="uid://ctjgxporfxq4a" path="res://assets/frog.png" id="1_mqod6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyo2l"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(0, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rq8tc"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(16, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g2vb"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(32, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybftx"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(48, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ifle"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(64, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uu7fg"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(80, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycnbg"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(96, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqhdc"]
+atlas = ExtResource("1_mqod6")
+region = Rect2(112, 64, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u8gyo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyo2l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rq8tc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g2vb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybftx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ifle")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uu7fg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycnbg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqhdc")
+}],
+"loop": 1,
+"name": &"frog",
+"speed": 5.0
+}]
+
+[node name="frog" type="Node2D" unique_id=1648578362]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=901227585]
+sprite_frames = SubResource("SpriteFrames_u8gyo")
+animation = &"frog"
+autoplay = "frog"
+frame_progress = 0.2524565
